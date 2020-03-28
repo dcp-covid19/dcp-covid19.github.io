@@ -22,6 +22,7 @@ body {
 
   background-color: #FFFFFF;
   font-size: 0.9rem;
+  background: linear-gradient(341deg, rgba(123,142,6,0.35) 23%, rgba(123,142,6,0) 70%);
 }
 
 .text-yellow {
@@ -40,6 +41,7 @@ div.colored-divider {
 
 a.header-link {
   color: #888;
+  font-weight: bold;
 }
 
 a.header-link.active {

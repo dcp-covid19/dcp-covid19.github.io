@@ -13,9 +13,9 @@ const Index = () => (
         </div>
         <p className="mt-2 w-75">Help identify disease clusters, spatial patterns and methods of transmission of endemic, epidemic and pandemic diseases which are essential to inform policymakers, programs, and interventions at both local and global scales. The results will inform community-specific public health interventions to maximize recovery and minimize economic impacts.</p>
         <div className="d-flex align-items-center">
-          <span className="mr-4">I want to contribute, and I am a...</span>
-          <button className="btn btn-outline-success mr-3">Researcher</button>
-          <button className="btn btn-success">?????</button>
+          <span className="mr-4">I want to help fight COVID-19 by...</span>
+          <a href="https://covid19.apps.distributed.computer" className="btn btn-outline-success mr-3">Researching</a>
+          <a href="https://dcp.work" className="btn btn-success">Computing</a>
         </div>
       </div>
     </div>
