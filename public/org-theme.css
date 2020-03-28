@@ -1,0 +1,33 @@
+
+:root {
+  --custom-green: #146300;
+  --custom-yellow: #E8BC14;
+}
+
+body {
+  margin: 0;
+  font-family: 'Muli', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: #FFFFFF;
+  font-size: 0.9rem;
+}
+
+.btn.btn-dcp-yellow {
+  background-color: #f1b50c;
+}
+
+.text-yellow {
+  color: var(--custom-yellow);
+}
+
+.text-green {
+  color: var(--custom-green);
+}
+
+div.colored-divider {
+  height: 2px;
+  width: 100%;
+  background: linear-gradient(to right, var(--custom-yellow) 0%, var(--custom-yellow) 20%, var(--custom-green) 20.5%, var(--custom-green) 100%);
+}
