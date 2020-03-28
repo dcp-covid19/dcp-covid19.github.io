@@ -1,39 +1,21 @@
 {
-  "name": "landing-page",
+  "name": "dcp-covid19.github.io",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
-    "bootstrap": "^4.4.1",
-    "gh-pages": "^2.2.0",
-    "node-sass": "^4.13.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
-  },
-  "homepage": "https://dcp-covid19.github.io/",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "publish": "react-scripts build && node publish.js"
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export",
+    "start": "next start",
+    "deploy": "gh-pages -b master -d out --dotfiles",
+    "predeploy": "npm run build && npm run export"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "gh-pages": "^2.2.0",
+    "next": "9.3.2",
+    "node-sass": "^4.13.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
   }
 }
