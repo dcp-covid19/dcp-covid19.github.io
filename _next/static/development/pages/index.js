@@ -59,14 +59,21 @@ var Index = function Index() {
       lineNumber: 3,
       columnNumber: 3
     }
-  });
+  }, __jsx("p", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4,
+      columnNumber: 5
+    }
+  }, "It worked!"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
 
 /***/ }),
 
-/***/ 1:
+/***/ 3:
 /*!**********************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fryan%2Fgit%2Fdcp-covid19%2Fdcp-covid19.github.io%2Fpages%2Findex.js ***!
   \**********************************************************************************************************************************************/
@@ -89,5 +96,5 @@ module.exports = dll_c2e10d183b950a67d9e7;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[3,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
