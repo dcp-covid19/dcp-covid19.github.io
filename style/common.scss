@@ -9,6 +9,11 @@ $theme-colors: (
 @import '~bootstrap/scss/bootstrap';
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
 body {
   margin: 0;
   font-family: 'Muli', sans-serif;
