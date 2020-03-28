@@ -14,4 +14,4 @@
  *
  */
 let ghpages = require('gh-pages');
-ghpages.publish('build', {branch: 'master'});
+ghpages.publish('build', {branch: 'master'}, () => console.log('Published contents of `./build` to `https://github.com/dcp-covid19/dcp-covid19.github.io/tree/master`.'));
