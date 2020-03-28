@@ -7139,6 +7139,10 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
+.btn:focus {
+  outline: none;
+  box-shadow: none; }
+
 body {
   margin: 0;
   font-family: 'Muli', sans-serif;
@@ -7157,6 +7161,22 @@ div.colored-divider {
   height: 2px;
   width: 100%;
   background: linear-gradient(to right, #E8BC14 0%, #E8BC14 20%, #146300 20.5%, #146300 100%); }
+
+a.header-link {
+  color: #888; }
+
+a.header-link.active {
+  color: #146300; }
+
+html, body, #__next {
+  width: 100%;
+  height: 100%; }
+
+.covid-bg {
+  background-image: url("/bg.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 50%; }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/
