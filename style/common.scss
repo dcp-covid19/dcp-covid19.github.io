@@ -32,3 +32,11 @@ div.colored-divider {
   width: 100%;
   background: linear-gradient(to right, $custom-yellow 0%, $custom-yellow 20%, $custom-green 20.5%, $custom-green 100%);
 }
+
+a.header-link {
+  color: #888;
+}
+
+a.header-link.active {
+  color: $custom-green;
+}
