@@ -12,7 +12,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 var _this = undefined,
-    _jsxFileName = "/Users/kc/git/dcp-covid19/dcp-covid19.github.io/components/DCPLogo.js";
+    _jsxFileName = "/home/ryan/git/dcp-covid19/dcp-covid19.github.io/components/DCPLogo.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -156,14 +156,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _DCPLogo__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./DCPLogo */ "./components/DCPLogo.js");
 var _this = undefined,
-    _jsxFileName = "/Users/kc/git/dcp-covid19/dcp-covid19.github.io/components/Header.js";
+    _jsxFileName = "/home/ryan/git/dcp-covid19/dcp-covid19.github.io/components/Header.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 var LINKS = [{
   label: 'Home',
-  href: '#'
+  href: 'https://covid19.distributed.computer'
 }, {
   label: 'Researcher',
   href: 'https://covid19.apps.distributed.computer'
@@ -184,28 +184,60 @@ var Header = function Header(_ref) {
       columnNumber: 3
     }
   }, __jsx("div", {
-    className: "container-fluid d-flex align-items-center justify-content-between p-4",
+    className: "container-fluid p-4",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12,
       columnNumber: 5
     }
-  }, __jsx(_DCPLogo__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    className: "ml-4",
+  }, __jsx("div", {
+    className: "row",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13,
       columnNumber: 7
     }
-  }), __jsx("span", {
-    className: "mr-2",
+  }, __jsx("div", {
+    className: "col-12 col-md-auto",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14,
-      columnNumber: 7
+      columnNumber: 9
+    }
+  }, __jsx(_DCPLogo__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    className: "ml-4 mr-4",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 11
+    }
+  })), __jsx("div", {
+    className: "col",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 9
+    }
+  }), __jsx("div", {
+    className: "col-12 col-md-auto d-flex align-items-center justify-content-end",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 9
+    }
+  }, __jsx("span", {
+    className: "m-2",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 11
     }
   }, LINKS.map(function (_ref2) {
     var label = _ref2.label,
@@ -217,16 +249,16 @@ var Header = function Header(_ref) {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 16,
-        columnNumber: 11
+        lineNumber: 21,
+        columnNumber: 15
       }
     }, label);
-  }))), !hideDivider && __jsx("div", {
+  }))))), !hideDivider && __jsx("div", {
     className: "colored-divider",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 27,
       columnNumber: 23
     }
   }));
@@ -236,10 +268,10 @@ var Header = function Header(_ref) {
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fkc%2Fgit%2Fdcp-covid19%2Fdcp-covid19.github.io%2Fpages%2Findex.js!./":
-/*!*****************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fkc%2Fgit%2Fdcp-covid19%2Fdcp-covid19.github.io%2Fpages%2Findex.js ***!
-  \*****************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fryan%2Fgit%2Fdcp-covid19%2Fdcp-covid19.github.io%2Fpages%2Findex.js!./":
+/*!******************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fryan%2Fgit%2Fdcp-covid19%2Fdcp-covid19.github.io%2Fpages%2Findex.js ***!
+  \******************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -283,7 +315,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Header */ "./components/Header.js");
 var _this = undefined,
-    _jsxFileName = "/Users/kc/git/dcp-covid19/dcp-covid19.github.io/pages/index.js";
+    _jsxFileName = "/home/ryan/git/dcp-covid19/dcp-covid19.github.io/pages/index.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -415,13 +447,13 @@ var Index = function Index() {
 /***/ }),
 
 /***/ 4:
-/*!*********************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fkc%2Fgit%2Fdcp-covid19%2Fdcp-covid19.github.io%2Fpages%2Findex.js ***!
-  \*********************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fryan%2Fgit%2Fdcp-covid19%2Fdcp-covid19.github.io%2Fpages%2Findex.js ***!
+  \**********************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fkc%2Fgit%2Fdcp-covid19%2Fdcp-covid19.github.io%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fkc%2Fgit%2Fdcp-covid19%2Fdcp-covid19.github.io%2Fpages%2Findex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fryan%2Fgit%2Fdcp-covid19%2Fdcp-covid19.github.io%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fryan%2Fgit%2Fdcp-covid19%2Fdcp-covid19.github.io%2Fpages%2Findex.js!./");
 
 
 /***/ }),
