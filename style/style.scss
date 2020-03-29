@@ -5,6 +5,10 @@ html, body, #__next {
   height: 100%;
 }
 
+body {
+  background: linear-gradient(341deg, rgba(123,142,6,0.35) 23%, rgba(123,142,6,0) 70%);
+}
+
 .covid-bg {
   background-image: url('/bg.png');
   background-repeat: no-repeat;
