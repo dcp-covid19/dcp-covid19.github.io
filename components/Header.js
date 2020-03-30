@@ -5,7 +5,7 @@ import MenuIcon from './MenuIcon';
 const LINKS = [
   { label: 'Home', href: 'https://covid19.distributed.computer' },
   { label: 'Researcher', href: 'https://covid19.apps.distributed.computer' },
-  { label: 'Worker', href: 'https://dcp.work' },
+  { label: 'Worker', href: 'https://dcp.work/covid19' },
 ];
 
 const Header = ({ activeLink, hideDivider=false }) => {
