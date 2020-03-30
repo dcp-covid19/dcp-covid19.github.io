@@ -1,5 +1,6 @@
 import React, {useState, useEffect, useCallback} from 'react';
 import DCPLogo from './DCPLogo';
+import MenuIcon from './MenuIcon';
 
 const LINKS = [
   { label: 'Home', href: 'https://covid19.distributed.computer' },
@@ -16,10 +17,10 @@ const Header = ({ activeLink, hideDivider=false }) => {
 
   return (
     <header className="main-header">
-      <nav className="navbar navbar-expand-lg fixed-top">
+      <nav className="navbar navbar-expand-lg">
         <DCPLogo className=""/>
         <button className="navbar-toggler" onClick={toggleNav} type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
+          <MenuIcon open={navOpen} />
         </button>
 
         <div className={`collapse navbar-collapse ${navOpen ? "show" : ""}`} id="navbarSupportedContent">
