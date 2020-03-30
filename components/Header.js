@@ -1,5 +1,6 @@
-import React from 'react'; 
+import React, {useState, useEffect} from 'react';
 import DCPLogo from './DCPLogo';
+import { slide as Menu } from 'react-burger-menu'
 
 const LINKS = [
   { label: 'Home', href: 'https://covid19.distributed.computer' },
@@ -7,25 +8,32 @@ const LINKS = [
   { label: 'Worker', href: 'https://dcp.work' },
 ];
 
-const Header = ({ activeLink, hideDivider=false }) => (
-  <div>
-    <div className="container-fluid p-4">
-      <div className="row">
-        <div className="col-12 col-md-auto">
-          <DCPLogo className="ml-4 mr-4"/>
-        </div>
-        <div className="col" />
-        <div className="col-12 col-md-auto d-flex align-items-center justify-content-end">
-          <span className="m-2">
+const Header = ({ activeLink, hideDivider=false }) => {
+  const [navOpen, setNavOpen] = useState(false);
+  const toggleNav = () => {
+    setNavOpen(!navOpen)
+  }
+  return (
+    <header className="main-header">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <DCPLogo className=""/>
+        <button class="navbar-toggler" onClick={toggleNav} type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class={"collapse navbar-collapse " + (navOpen ? "show" : "")} id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
             { LINKS.map(({ label, href }) => (
-              <a key={label} href={href} className={`mr-4 header-link ${activeLink === label? 'active' : ''}`}>{ label }</a>
+              <li className="nav-item">
+                <a key={label} href={href} className={`nav-link header-link ${activeLink === label? 'active' : ''}`}>{ label }</a>
+              </li>
             ))}
-          </span>
+          </ul>
         </div>
-      </div>
-    </div>
-    { !hideDivider && <div className="colored-divider"></div> }
-  </div>
-)
+        </nav>
+      { !hideDivider && <div className="colored-divider"></div> }
+    </header>
+  )
+}
 
 export default Header;

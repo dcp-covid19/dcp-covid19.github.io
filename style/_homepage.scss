@@ -1,0 +1,32 @@
+.homepage {
+
+  .icon-heading-wrapper {
+    display: flex;
+    align-items: center;
+    @media only screen and (max-width: 768px) {
+      display: block;
+    }
+    .icon {
+      margin-right: 16px;
+    }
+    .heading {
+
+    }
+  }
+  .cta-buttons {
+    display: flex;
+    align-items: center;
+    @media only screen and (max-width: 768px) {
+      display: block;
+    }
+    .cta {
+      @media only screen and (min-width: 769px) {
+        margin-bottom: 0;
+        margin-right: 8px;
+      }
+    }
+    .buttons {
+
+    }
+  }
+}

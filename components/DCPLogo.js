@@ -1,7 +1,7 @@
 import React from 'react';
 
 const LogoSVG = () => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 525.31 595.71" height={55}>
+  <svg className="header-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 525.31 595.71" height={55} width={50}>
     <polygon style={{ fill: '#00a473' }} points="525.31 0 477.51 535.04 262.66 595.71 47.8 535.04 0 0 525.31 0"/>
     <polygon style={{ fill: '#6fc495' }} points="263.22 550.28 437.81 500.9 478.2 41.79 263.22 41.79 263.22 550.28"/>
     <polygon style={{ fill: '#ffde17' }} points="263.22 482.62 263.22 482.75 263.44 482.68 263.22 482.62"/>
@@ -14,8 +14,10 @@ const LogoSVG = () => (
 
 const DCPLogo = ({ className }) => (
   <div className={`d-flex align-items-center ${className}`}>
-    <LogoSVG />
-    <span className="ml-3" style={{ fontSize: '1.3rem' }}>Distributed.Computer</span>
+    <div className="header-logo-wrapper">
+      <LogoSVG />
+    </div>
+    <h3 className="logo-heading">Distributed.Computer</h3>
   </div>
 );
 
