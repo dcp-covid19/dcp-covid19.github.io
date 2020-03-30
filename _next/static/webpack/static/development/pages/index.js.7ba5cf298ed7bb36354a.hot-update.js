@@ -12,10 +12,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _DCPLogo__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./DCPLogo */ "./components/DCPLogo.js");
+/* harmony import */ var _MenuIcon__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./MenuIcon */ "./components/MenuIcon.js");
 var _this = undefined,
     _jsxFileName = "/home/ryan/git/dcp-covid19/dcp-covid19.github.io/components/Header.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 var LINKS = [{
@@ -48,15 +50,15 @@ var Header = function Header(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18,
+      lineNumber: 19,
       columnNumber: 5
     }
   }, __jsx("nav", {
-    className: "navbar navbar-expand-lg fixed-top",
+    className: "navbar navbar-expand-lg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 20,
       columnNumber: 7
     }
   }, __jsx(_DCPLogo__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -64,7 +66,7 @@ var Header = function Header(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 21,
       columnNumber: 9
     }
   }), __jsx("button", {
@@ -79,15 +81,15 @@ var Header = function Header(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21,
+      lineNumber: 22,
       columnNumber: 9
     }
-  }, __jsx("span", {
-    className: "navbar-toggler-icon",
+  }, __jsx(_MenuIcon__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    open: navOpen,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 23,
       columnNumber: 11
     }
   })), __jsx("div", {
@@ -96,7 +98,7 @@ var Header = function Header(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25,
+      lineNumber: 26,
       columnNumber: 9
     }
   }, __jsx("ul", {
@@ -104,7 +106,7 @@ var Header = function Header(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
+      lineNumber: 27,
       columnNumber: 11
     }
   }, LINKS.map(function (_ref2) {
@@ -116,7 +118,7 @@ var Header = function Header(_ref) {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 28,
+        lineNumber: 29,
         columnNumber: 15
       }
     }, __jsx("a", {
@@ -125,7 +127,7 @@ var Header = function Header(_ref) {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 29,
+        lineNumber: 30,
         columnNumber: 17
       }
     }, label));
@@ -134,7 +136,7 @@ var Header = function Header(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35,
+      lineNumber: 36,
       columnNumber: 25
     }
   }));
@@ -145,4 +147,4 @@ var Header = function Header(_ref) {
 /***/ })
 
 })
-//# sourceMappingURL=index.js.4676009c7504cfe2a61d.hot-update.js.map
+//# sourceMappingURL=index.js.7ba5cf298ed7bb36354a.hot-update.js.map

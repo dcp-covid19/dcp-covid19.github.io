@@ -162,10 +162,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _DCPLogo__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./DCPLogo */ "./components/DCPLogo.js");
+/* harmony import */ var _MenuIcon__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./MenuIcon */ "./components/MenuIcon.js");
 var _this = undefined,
     _jsxFileName = "/home/ryan/git/dcp-covid19/dcp-covid19.github.io/components/Header.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 var LINKS = [{
@@ -198,15 +200,15 @@ var Header = function Header(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18,
+      lineNumber: 19,
       columnNumber: 5
     }
   }, __jsx("nav", {
-    className: "navbar navbar-expand-lg fixed-top",
+    className: "navbar navbar-expand-lg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 20,
       columnNumber: 7
     }
   }, __jsx(_DCPLogo__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -214,7 +216,7 @@ var Header = function Header(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 21,
       columnNumber: 9
     }
   }), __jsx("button", {
@@ -229,15 +231,15 @@ var Header = function Header(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21,
+      lineNumber: 22,
       columnNumber: 9
     }
-  }, __jsx("span", {
-    className: "navbar-toggler-icon",
+  }, __jsx(_MenuIcon__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    open: navOpen,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 23,
       columnNumber: 11
     }
   })), __jsx("div", {
@@ -246,7 +248,7 @@ var Header = function Header(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25,
+      lineNumber: 26,
       columnNumber: 9
     }
   }, __jsx("ul", {
@@ -254,7 +256,7 @@ var Header = function Header(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
+      lineNumber: 27,
       columnNumber: 11
     }
   }, LINKS.map(function (_ref2) {
@@ -266,7 +268,7 @@ var Header = function Header(_ref) {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 28,
+        lineNumber: 29,
         columnNumber: 15
       }
     }, __jsx("a", {
@@ -275,7 +277,7 @@ var Header = function Header(_ref) {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 29,
+        lineNumber: 30,
         columnNumber: 17
       }
     }, label));
@@ -284,13 +286,95 @@ var Header = function Header(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35,
+      lineNumber: 36,
       columnNumber: 25
     }
   }));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
+
+/***/ }),
+
+/***/ "./components/MenuIcon.js":
+/*!********************************!*\
+  !*** ./components/MenuIcon.js ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _this = undefined,
+    _jsxFileName = "/home/ryan/git/dcp-covid19/dcp-covid19.github.io/components/MenuIcon.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+var MenuIcon = function MenuIcon(_ref) {
+  var open = _ref.open;
+  return open ? __jsx("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    height: "24",
+    viewBox: "0 0 24 24",
+    width: "24",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5,
+      columnNumber: 5
+    }
+  }, __jsx("path", {
+    d: "M0 0h24v24H0V0z",
+    fill: "none",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6,
+      columnNumber: 7
+    }
+  }), __jsx("path", {
+    d: "M3 18h13v-2H3v2zm0-5h10v-2H3v2zm0-7v2h13V6H3zm18 9.59L17.42 12 21 8.41 19.59 7l-5 5 5 5L21 15.59z",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 7
+    }
+  })) : __jsx("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    height: "24",
+    viewBox: "0 0 24 24",
+    width: "24",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 5
+    }
+  }, __jsx("path", {
+    d: "M0 0h24v24H0z",
+    fill: "none",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 7
+    }
+  }), __jsx("path", {
+    d: "M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 7
+    }
+  }));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (MenuIcon);
 
 /***/ }),
 
@@ -502,7 +586,7 @@ var Index = function Index() {
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!**********************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fryan%2Fgit%2Fdcp-covid19%2Fdcp-covid19.github.io%2Fpages%2Findex.js ***!
   \**********************************************************************************************************************************************/
@@ -525,5 +609,5 @@ module.exports = dll_c2e10d183b950a67d9e7;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js"]]]);
+},[[3,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
