@@ -21,7 +21,7 @@ const Index = () => (
             <p className="cta">I want to help fight COVID-19 by...</p>
             <div className="buttons">
               <a href="https://covid19.apps.distributed.computer" className="btn btn-outline-success mr-3">Researching</a>
-              <a href="https://dcp.work" className="btn btn-success">Computing</a>
+              <a href="https://dcp.work/covid19" className="btn btn-success">Computing</a>
             </div>
           </div>
         </div>
