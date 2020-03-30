@@ -1,6 +1,5 @@
 import React, {useState, useEffect} from 'react';
 import DCPLogo from './DCPLogo';
-import { slide as Menu } from 'react-burger-menu'
 
 const LINKS = [
   { label: 'Home', href: 'https://covid19.distributed.computer' },
